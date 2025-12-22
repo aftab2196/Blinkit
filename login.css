@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.login{
+    border-radius: 15px;
+    /* margin-top: 10%; */
+    background-color: white;
+    color: black;
+    padding: 1.5% 0;
+    display: flex;
+align-items: center;
+justify-items: center;
+flex-direction: column;
+width:35rem;
+ 
+}
+form{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+button{
+    padding: 7% 40%;
+    border-radius: 12px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 1.1rem;
+}
+.heading01{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.heading02{
+    color: gray;
+}
+.input{
+    border-radius: 10px;
+    border: 2px solid rgb(184, 184, 184);
+    gap: 0.6rem;
+    display: flex;
+    align-items: center;
+    width: 15rem;
+    padding: 1.2rem;
+}
+input{
+    border: none;
+    outline: none;
+}
+.note{
+    margin-top: 2rem;
+    color: gray;
+    font-weight: 500;
+     text-align: center;
+    
+}
+ @media(max-width:600px){
+ 
+
+.slider {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+ 
+.slide-track {
+  display: flex;
+  width: 200%;              
+  height: 100%;
+  animation: moveTrack 20s linear infinite alternate;
+}
+
+ 
+.slide {
+   width: 50%;              
+  height: 100%;
+  background-image: url("ph-images/rolling-items.jpeg");
+  background-size: cover;  
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+ 
+@keyframes moveTrack {
+  from {
+    transform: translateX(0);       
+  }
+  to {
+    transform: translateX(-50%);      
+  }
+}
+
+ .login{
+    margin-top: 5%;
+ }
+ .note{
+    text-align: center;
+     font-size: x-small;
+ }
+   
+ }
