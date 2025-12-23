@@ -11,6 +11,11 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+.main-wrapper {
+    max-width: 1300px;      
+    margin: 0 auto;        
+    width: 100%;            
+}
 .login{
     border-radius: 15px;
     background-color: white;
