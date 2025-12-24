@@ -244,7 +244,7 @@ button{
     align-items: center;
     justify-content: space-between;
 }
-.bottom >button{
+.bottom > .add_button{
     cursor: pointer;
      background-color: white;
     font-weight: 600;
