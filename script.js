@@ -19,5 +19,11 @@ loginBtn.addEventListener("click", function () {
     isloginOpen = false;
 }
 });
-// Add button functions
-
+// cart functions
+ let cartBackgroundColor = document.querySelector(".cart");
+ let addButton = document.querySelectorAll(".add_button");
+ addButton.forEach(buttons => {
+     buttons.addEventListener("click",function(){
+          cartBackgroundColor.classList.toggle("newcart");
+     })
+ })
